@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Pomodoro</title>
+    <meta name="description" content="A sleek, modern Pomodoro timer to boost your productivity.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Focus Flow</h1>
+        </header>
+
+        <main class="timer-card">
+            <div class="timer-container">
+                <svg class="progress-ring" width="300" height="300">
+                    <circle class="progress-ring__circle-bg" stroke="rgba(255,255,255,0.1)" stroke-width="8"
+                        fill="transparent" r="140" cx="150" cy="150" />
+                    <circle class="progress-ring__circle" stroke="white" stroke-width="8" fill="transparent" r="140"
+                        cx="150" cy="150" />
+                </svg>
+                <div class="timer-display" id="timer">25:00</div>
+            </div>
+
+            <div class="input-group">
+                <input type="number" id="customMinutes" placeholder="25" min="1" max="180">
+                <span class="label">minutes</span>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" class="btn btn-primary">Start</button>
+                <button id="resetBtn" class="btn btn-secondary">Reset</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
