@@ -31,5 +31,3 @@ I have built the modern Pomodoro timer on the `pomodoro` branch, featuring custo
 ## Automated Verification Result
 -   **Full Flow Verified**: Input -> Start -> Countdown -> Ring Animation -> Reset.
 -   **Polish Verified**: "Time's Up" logic implemented and verified via code review.
-
-![Automated Full Verification](/Users/postemus2025/.gemini/antigravity/brain/c7885379-fe16-441b-b37c-18054d841db1/verify_pomodoro_full_1767822604890.webp)

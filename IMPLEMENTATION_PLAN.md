@@ -5,13 +5,13 @@ Enhance the application with a gradient title, "Time's Up" state, and a pleasant
 ## Proposed Changes
 
 ### Styling
-#### [MODIFY] [style.css](file:///Users/postemus2025/Desktop/AI_Projects/Google Antigravity/Sandbox_3/style.css)
+#### [MODIFY] [style.css]
 - Feature: Gradient Text for "Focus Flow".
 - Use `background-image: linear-gradient(...)`, `-webkit-background-clip: text`, and `color: transparent`.
 - Gradient colors: Keep it subtle, maybe a lighter varying white/blue/purple mix to stand out against the background.
 
 ### Logic & Behavior
-#### [MODIFY] [script.js](file:///Users/postemus2025/Desktop/AI_Projects/Google Antigravity/Sandbox_3/script.js)
+#### [MODIFY] [script.js]
 - **Time's Up**:
     - When `timeLeft` hits 0, update `timerDisplay.textContent` to "Time's Up".
     - Adjust font size dynamically if needed to fit "Time's Up".
